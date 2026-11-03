@@ -1,16 +1,13 @@
 {
-	"geode": "6.0.0-alpha.1",
+	"geode": "5.11.2",
 	"gd": {
-		"win": "2.2091",
-		"android": "2.2091",
-		"mac": "2.2091",
-		"ios": "2.2091"
+		"android": "2.2081"
 	},
 	"id": "zixx.buffer-frame",
 	"name": "Buffer Frame",
 	"version": "v0.1.0",
 	"developer": "zixx",
-	"description": "Corrige tus clicks tempranos retrasándolos unos ticks. Es un cheat: no es para récords ni verificaciones.",
+	"description": "Corrige tus clicks tempranos retrasándolos unos ticks.",
 	"tags": ["gameplay", "utility"],
 	"settings": {
 		"enabled": {
@@ -34,7 +31,7 @@
 		"lookahead": {
 			"type": "int",
 			"name": "Ventana de revisión (ticks)",
-			"description": "Cuántos ticks después del click se vigila si mueres. Si un click te mata dentro de esta ventana, se prueba con más retraso.",
+			"description": "Cuántos ticks después del click se vigila si mueres.",
 			"default": 30,
 			"min": 10,
 			"max": 90,
@@ -46,7 +43,7 @@
 		"show-label": {
 			"type": "bool",
 			"name": "Mostrar aviso en pantalla",
-			"description": "Muestra una etiqueta pequeña mientras el mod está activo en un nivel.",
+			"description": "Muestra una etiqueta pequeña mientras el mod está activo.",
 			"default": true
 		}
 	}
