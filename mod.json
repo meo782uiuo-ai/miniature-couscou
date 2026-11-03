@@ -1,5 +1,5 @@
 {
-	"geode": "v6.0.0-alpha.1",
+	"geode": "6.0.0-alpha.1",
 	"gd": {
 		"win": "2.2081",
 		"android": "2.2081",
@@ -9,7 +9,7 @@
 	"id": "zixx.buffer-frame",
 	"name": "Buffer Frame",
 	"version": "v0.1.0",
-	"developer": "zixx_27",
+	"developer": "zixx27",
 	"description": "Corrige tus clicks tempranos retrasándolos unos ticks. Es un cheat: no es para récords ni verificaciones.",
 	"tags": ["gameplay", "utility"],
 	"settings": {
