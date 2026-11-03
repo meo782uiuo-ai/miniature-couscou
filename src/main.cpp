@@ -50,8 +50,8 @@ class $modify(BFGameLayer, GJBaseGameLayer) {
 };
 
 class $modify(BFPlayLayer, PlayLayer) {
-    bool init(GJGameLevel* level, bool useReplay, bool dontCreateObjects) {
-        if (!PlayLayer::init(level, useReplay, dontCreateObjects)) return false;
+    bool init(GJGameLevel* level) {
+        if (!PlayLayer::init(level)) return false;
 
         bf::reset();
 
